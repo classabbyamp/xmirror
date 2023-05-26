@@ -1,0 +1,19 @@
+[package]
+name = "xmirror"
+version = "1.0.0"
+edition = "2021"
+authors = ["classabbyamp"]
+description = "Interactive tool for managing XBPS mirrors"
+license = "BSD-2-Clause"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.2.7", features = ["derive"] }
+cursive = { version = "0.20.0", default-features = false, features = ["crossterm-backend"] }
+env_logger = "0.10.0"
+glob-match = "0.2.1"
+log = "0.4.17"
+nix = { version = "0.26.2", default-features = false, features = ["user"] }
+serde = { version = "1.0.163", features = ["derive"] }
+serde_json = "1.0.96"

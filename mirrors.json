@@ -1,0 +1,127 @@
+[
+    {
+        "name": "repo-fi",
+        "url": "https://repo-fi.voidlinux.org/",
+        "location": "Helsinki, Finland",
+        "region": "EU",
+        "tier": 1,
+        "enabled": true,
+        "archs": {
+            "x86_64": {
+                "main": "",
+                "nonfree": "nonfree/",
+                "multilib": "multilib/",
+                "multilib-nonfree": "multilib/nonfree/",
+                "debug": "debug/"
+            },
+            "x86_64-musl": {
+                "main": "musl/",
+                "nonfree": "musl/nonfree/",
+                "debug": "musl/debug/"
+            },
+            "i686": {
+                "main": "",
+                "nonfree": "nonfree/",
+                "debug": "debug/"
+            },
+            "armv7l": {
+                "main": "",
+                "nonfree": "nonfree/",
+                "debug": "debug/"
+            },
+            "armv7l-musl": {
+                "main": "musl/",
+                "nonfree": "musl/nonfree/",
+                "debug": "musl/debug/"
+            },
+            "armv6l": {
+                "main": "",
+                "nonfree": "nonfree/",
+                "debug": "debug/"
+            },
+            "armv6l-musl": {
+                "main": "musl/",
+                "nonfree": "musl/nonfree/",
+                "debug": "musl/debug/"
+            },
+            "aarch64": {
+                "main": "aarch64/",
+                "nonfree": "aarch64/nonfree/",
+                "debug": "aarch64/debug/"
+            },
+            "aarch64-musl": {
+                "main": "aarch64/",
+                "nonfree": "aarch64/nonfree/",
+                "debug": "aarch64/debug/"
+            }
+        },
+        "paths": {
+            "packages": "current/",
+            "distfiles": "distfiles/",
+            "docs": "docs/",
+            "live": "live/",
+            "logos": "logos/",
+            "man": "man/",
+            "static": "static/",
+            "void-updates": "void-updates/",
+            "xlocate": "xlocate/"
+        }
+    },
+    {
+        "name": "repo-de",
+        "url": "https://repo-de.voidlinux.org/",
+        "location": "Frankfurt, Germany",
+        "region": "EU",
+        "tier": 1,
+        "enabled": true
+    },
+    {
+        "name": "repo-us",
+        "url": "https://repo-us.voidlinux.org/",
+        "location": "Kansas City, USA",
+        "region": "NA",
+        "tier": 1,
+        "enabled": false
+    },
+    {
+        "name": "repo-fastly",
+        "url": "https://repo-fastly.voidlinux.org/",
+        "location": "Fastly Global CDN",
+        "region": "World",
+        "tier": 1,
+        "enabled": true
+    },
+    {
+        "name": "ServerCentral",
+        "url": "https://mirrors.servercentral.com/voidlinux/",
+        "location": "Chicago, USA",
+        "region": "NA",
+        "tier": 1,
+        "enabled": true
+    },
+]
+AS	https://mirror.ps.kz/voidlinux/	Almaty, Kazakhstan	2
+AS	https://mirror.nju.edu.cn/voidlinux/	China	2
+AS	https://mirrors.bfsu.edu.cn/voidlinux/	Beijing, China	2
+AS	https://mirrors.cnnic.cn/voidlinux/	Beijing, China	2
+AS	https://mirrors.tuna.tsinghua.edu.cn/voidlinux/	Beijing, China	2
+AS	https://mirror.sjtu.edu.cn/voidlinux/	Shanghai, China	2
+AS	https://void.webconverger.org/	Singapore	2
+EU	http://ftp.dk.xemacs.org/voidlinux/	Denmark	2
+EU	https://mirrors.dotsrc.org/voidlinux/	Denmark	2
+EU	https://quantum-mirror.hu/mirrors/pub/voidlinux/	Hungary	2
+EU	https://voidlinux.mirror.garr.it/	Italy	2
+EU	https://void.cijber.net/	Amsterdam, Netherlands	2
+EU	https://void.sakamoto.pl/	Warsaw, Poland	2
+EU	http://ftp.debian.ru/mirrors/voidlinux/	Russia	2
+EU	https://mirror.yandex.ru/mirrors/voidlinux/	Russia	2
+EU	https://ftp.lysator.liu.se/pub/voidlinux/	Sweden	2
+EU	https://mirror.accum.se/mirror/voidlinux/	Sweden	2
+EU	https://mirror.puzzle.ch/voidlinux/	Bern, Switzerland	2
+NA	https://mirror.vofr.net/voidlinux/	California, USA	2
+NA	https://mirror2.sandyriver.net/pub/voidlinux/	Kentucky, USA	2
+NA	https://mirror.clarkson.edu/voidlinux/	New York, USA	2
+OC	https://mirror.aarnet.edu.au/pub/voidlinux/	Canberra, Australia	2
+OC	https://ftp.swin.edu.au/voidlinux/	Melbourne, Australia	2
+SA	https://voidlinux.com.br/repo/	Ouro Preto, Brazil	2
+SA	http://void.chililinux.com/voidlinux/	Pimenta Bueno, Brazil	2

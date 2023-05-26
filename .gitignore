@@ -3,3 +3,8 @@ xmirror
 _site/
 completions/_xmirror
 completions/xmirror.fish
+
+
+# Added by cargo
+
+/target
